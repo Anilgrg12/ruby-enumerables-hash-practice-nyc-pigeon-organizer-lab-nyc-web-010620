@@ -15,5 +15,5 @@ def nyc_pigeon_organizer(data)
 
   #if name has no key at the current iteration yet, set the new hash
   else
-    pigeon_list[name][key] = [descr
+    pigeon_list[name][key] = [descrbe.to_s]
 end
